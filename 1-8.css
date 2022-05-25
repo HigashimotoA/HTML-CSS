@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body{
+  margin: 50px auto;
+  width: 960px;
+}
+
+.listbox1{
+  padding: 20px;
+}
+
+.listbox2{
+  padding: 20px;
+}
+
+.listbox3{
+  padding: 20px;
+}
+
+.listbox4{
+  padding: 20px;
+}
+
+.listbox5{
+  padding: 20px;
+}
+
+.listbox6{
+  padding: 20px;
+}
+
+.listbox7{
+  padding: 20px;
+}
+
+.listbox1, .listbox3, .listbox5, .listbox7{
+  background-color: rgb(210, 210, 210);
+}
+
+
+.colorbox{
+  margin: 50px auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colorbox1,.colorbox5,.colorbox9{
+  background-color: orange;
+}
+
+.colorbox2,.colorbox3,.colorbox4,.colorbox6,.colorbox7,.colorbox8{
+  background-color: yellow;
+}
+
+.colorbox1{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.colorbox2{
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.colorbox3{
+  width: 30%;
+  height: 200px;
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.colorbox4{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.colorbox5{
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.colorbox6{
+  width: 30%;
+  height: 200px;
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.colorbox7{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+}
+
+.colorbox8{
+  width: 30%;
+  height: 200px;
+}
+
+.colorbox9{
+  width: 30%;
+  height: 200px;
+  margin-left: 5%;
+}
