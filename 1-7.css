@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.heading {
+  color: rgba(180, 180,180);
+  padding: 20px;
+}
+
+main {
+  margin: 30px 840px;
+  margin-bottom: 20px;
+  width: 840px;
+
+}
+
+.text{
+  color: rgb(200, 200, 200);
+}
+.webcamp{
+  padding: 30px;
+  border-bottom: solid;
+  border-color: #6c6b6b;
+}
+
+
+.webcamp-pro{
+  padding: 30px;
+  border-bottom: solid;
+  border-color: #6c6b6b;}
+
+.webcamp-woman{
+  padding: 30px;
+  border-bottom: solid;
+  border-color: #6c6b6b;
+}
+.webcamp-career{
+  padding: 30px;
+  border-bottom: solid;
+  border-color: #6c6b6b;
+}
