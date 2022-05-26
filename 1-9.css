@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  background-color: #ff9a4b;
+  height: 50px;
+
+}
+
+main{
+  margin: 50px auto;
+  width: 960px;
+}
+
+.box1{
+  display: inline-block;
+  background-color: #EEEEEE;
+  width: 300px;
+}
+
+.box2{
+  display: inline-block;
+  background-color: #EEEEEE;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.box3{
+  display: inline-block;
+  background-color: #EEEEEE;
+  width: 300px;
+}
+
+.step{
+  background-color: #ff9a4b;
+  color: #EEEEEE;
+  list-style: none;
+  width: 15%;
+}
+
+/* heightは子の要素と同じ高さになる。*/
+/* 子が無い場合、高さの指定をしないと要素が表示されない。*/
+
+.image1{
+  margin: 10px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.image2{
+  margin: 10px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.image3{
+  margin: 10px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.title{
+  margin: 5px auto;
+}
+
+footer{
+  background-color: #AAAAAA;
+  height: 50px;
+}
